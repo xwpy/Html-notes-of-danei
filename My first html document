@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my first document</title>
+</head>
+<body text="red">
+	<pre>
+		这是一段有空    格及回车的
+
+		内容
+	</pre>
+	
+	<hr size="10px" color = "green" width="200px" align="left">
+<p>这是一段<b>加粗</b>,<i>倾斜</i>，<u>下划线</u>，上<sup>标</sup>和下<sub>标</sub>的文本&lt;标签&gt;,<s>删除线</s>，<strong>强调</strong>文档</p>
+
+</body>
+</html>
