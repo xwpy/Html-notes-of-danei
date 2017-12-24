@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Please complete your personal informaton </title>
+</head>
+<body>
+	<form action="http://www.sbsb22.com" method="post" enctype="multipart/form-data" align="center">
+		<iframe src="http://www.youku.com/" frameborder="0" width="1200px" height="600px" scrolling=no></iframe>
+		<br>
+		<caption class="title1">请填写你的真实信息</caption>
+		<input type="hidden" id="" value="豪吊，你好哇" id="container">
+		<label for="container"></label>
+		<p>
+			用户名称:
+			<input type="text" name="name" value="your name">
+		</p>
+		<p>
+			用户昵称:
+			<input type="text" name="nickname" value="your nickname" disabled>
+		</p>
+		<p>
+			密&nbsp;&nbsp;码:
+			<input type="password" value="123456" name="password">
+		</p>
+		<p><fieldset>
+			<legend>用户性别:</legend>
+			<input type="radio" value="nv" id="female" name="gender" checked>
+			<label for="female">女</label>
+			<input type="radio" value="nan" id="man" name="gender">
+			<label for="man">男</label>	
+			</fieldset>		
+		</p>
+
+		<p>
+			用户爱好:
+			<input type="checkbox" id="eat" name="hobbies" value="">
+			<label for="eat">吃</label>
+			<input type="checkbox" id="drink" name="hobbies" value="">
+			<label for="eat">喝</label>
+			<input type="checkbox" id="play" name="hobbies" value="">
+			<label for="eat">玩</label>
+			<input type="checkbox" id="pleasure" name="hobbies" value="">
+			<label for="eat">乐</label>
+		</p>
+		<p>
+			就业城市:
+			<select name="" size="1">
+				<option value="">北京</option>
+				<option value="">广州</option>
+				<option value="">上海</option>
+				<option value="">深圳</option>
+				<option value="">香港</option>
+			</select>
+		</p>
+		<p>
+			自我介绍:
+			<textarea name="" id="" cols="30" rows="10">这家伙很懒什么都没有留下........</textarea>
+		</p>
+		<p>
+			选择头像:
+			<input type="file">
+		</p>
+		<p>
+	
+		<input type="button" value="按钮">
+		<input type="reset" value="重置">
+		<button>提交</button>
+		</p>
+			
+	</form>
+</body>
+</html>
