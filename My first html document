@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>my first document</title>
 </head>
-<body text="red">
+<body text="red" bgcolor= "yellow">
 	<pre>
 		这是一段有空    格及回车的
 
