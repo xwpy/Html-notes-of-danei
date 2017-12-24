@@ -5,6 +5,7 @@
  	<title>图表练习</title>
  </head>
  <body>
+  <!-- 此处的cellpadding是表格内边和外边之间的距离，align的作用是设置整个表格在浏览器中的位置 -->
  	<table border="1px" cellspacing="5" align="center">
  	<tr>
  		<td>全月应纳税所得额</td>
