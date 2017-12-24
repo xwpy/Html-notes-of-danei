@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简历信息表</title>
+</head>
+<body>
+	<form action="get">
+	<table border="1" cellspacing="0" cellpadding="5px">
+		<caption>修改个人信息</caption>
+		<tr>
+			<td>姓名：</td>
+			<td><input type="text" value="mary" name="username"></td>
+		</tr>
+		<tr>
+			<td>性别：</td>
+			<td>
+			<input type="radio" value="nv" name="gender" id="female">
+			<label for="female">女士</label>
+			<input type="radio" value="nan" name="gender" id="man" checked>
+			<label for="man">男士</label>
+			</td>
+		</tr>
+		<tr>
+			<td>学历</td>
+			<td>
+			<select name="seledu" size="1">
+				<option value="0">专科</option>
+				<option value="1" selected>本科</option>
+				<option value="2">研究生</option>
+				<option value="3">博士</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>意向工作城市</td>
+			<td>
+			<select name="" size="4" multiple="2">
+				<option value="0">北京</option>
+				<option value="1">上海</option>
+				<option value="2">南京</option>
+				<option value="3">深圳</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">个人描叙</td>
+			<td><textarea name="condition" cols="30" rows="4">填写你的能力和特点</textarea></td>
+		</tr>
+		<tr>
+			<td>备注</td>
+			<td><input type="checkbox" id="careful" name="careful">
+			<label for="careful">不要公开我的个人信息></label>
+			</td>
+		</tr>
+		<tr>
+			<td>按钮</td>
+			<td>
+			<input type="submit" value="提交">
+			<input type="reset" value="重置">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
